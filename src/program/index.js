@@ -2,7 +2,7 @@ const { command, middleware, option } = require('termkit'),
   { codeCount } = require('../actions'),
   { version } = require('../../package.json')
 
-const program = command('code-count', '[paths...]')
+const program = command('codecount', '[paths...]')
   .version(version)
   .description('a cli for counting lines of code')
   .options([
